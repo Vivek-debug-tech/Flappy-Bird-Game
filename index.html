@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Sudharma Flappy Bird</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="game-container">
+        <canvas id="gameCanvas"></canvas>
+
+        <div id="ui-layer">
+            <div id="start-screen" class="overlay">
+                <h1>Sudharma Flappy</h1>
+                <p>Tap or Press Space to Jump</p>
+                <button id="start-btn">Start Game</button>
+            </div>
+
+            <div id="game-over-screen" class="overlay hidden">
+                <h1>Game Over</h1>
+                <div class="score-summary">
+                    <p>Score: <span id="final-score">0</span></p>
+                    <p>Best: <span id="best-score">0</span></p>
+                </div>
+                <button id="restart-btn">Try Again</button>
+            </div>
+
+            <div id="hud" class="hidden">
+                <div id="score-display">0</div>
+            </div>
+        </div>
+    </div>
+    <script src="game.js"></script>
+</body>
+
+</html>
