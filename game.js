@@ -40,17 +40,17 @@ let gameState = 'START'; // START, PLAYING, GAME_OVER
 
 // Assets
 const backgroundImage = new Image();
-backgroundImage.src = 'Background.jpg';
+backgroundImage.src = 'Images/Background.jpg';
 
 const birdImage = new Image();
-birdImage.src = 'Flappy Bird.jpg';
+birdImage.src = 'Images/Flappy Bird.jpg';
 
 const pillarImage = new Image();
-pillarImage.src = 'Pillar.jpg';
+pillarImage.src = 'Images/Pillar.jpg';
 
 // Audio
-const startSound = new Audio('Start Game.mp3');
-const gameOverSound = new Audio('Game Over.mp3');
+const startSound = new Audio('audio/Start Game.mp3');
+const gameOverSound = new Audio('audio/Game Over.mp3');
 
 // Initialize
 function init() {

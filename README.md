@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Sudharma Flappy Bird Game
 
 A fun Flappy Bird clone built with HTML5 Canvas, CSS3, and vanilla JavaScript.
@@ -26,3 +27,6 @@ Simply open `index.html` in a web browser to play!
 
 ## Credits
 Created with ❤️ by Sudharma
+=======
+# Flappy-Bird-Game
+>>>>>>> 11a06ff1a40dfc160ef60c4674f3c130656f16de
